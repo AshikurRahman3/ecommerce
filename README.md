@@ -2,8 +2,17 @@
 
 A Full-Stack E-Commerce application built with the **MERN stack** (MongoDB, Express, React, Node.js) and **Redux** for state management. This project demonstrates modern development practices, including **DevOps** methodologies, **containerization**, and **cloud deployment**.
 
+---
+
 ## 🌐 Hosted Application
 Live Demo: [https://e-commerce-app-test.netlify.app/](https://e-commerce-app-test.netlify.app/)
+
+---
+
+## 🎥 Demo Video
+[![Demo Preview](./screenshots/ecommerce_small.gif)](./screenshots/ecommerce_large.gif)  
+*Click on the image to view it in a larger size.*
+
 
 ---
 
@@ -43,5 +52,68 @@ The application is organized into the following directories:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/e-commerce-app.git
-cd e-commerce-app
+git clone https://github.com/AshikurRahman3/ecommerce.git
+```
+
+### Install Dependencies
+
+**For the client:**
+
+```bash
+cd client
+npm install
+```
+
+**For the server:**
+
+```bash
+cd server
+npm install
+```
+### Run locally
+
+To run the application locally using Docker:
+
+```bash
+docker-compose up
+```
+
+## 📈 CI/CD Pipeline
+The project uses **GitHub Actions** to automate:
+- Code testing
+- Build creation
+- Deployment to **AWS EKS** via **AWS ECR**
+
+---
+
+## 🛠️ DevOps Practices
+- **Containerization**: All components are Dockerized for consistent development and deployment.
+- **Kubernetes**: Application is production-ready and can scale easily on AWS EKS.
+- **Agile Workflow**: Organized with Slack, Trello, and Notion for team collaboration.
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- React.js
+- Redux
+
+### Backend
+- Node.js
+- Express.js
+
+### DevOps Tools
+- Docker
+- Kubernetes
+- GitHub Actions
+- AWS EKS
+- AWS ECR
+
+---
+
+## 🖋️ Author
+- **Ashikur Rahman**  
+  [GitHub](https://github.com/AshikurRahman3) | [LinkedIn](https://www.linkedin.com/in/ashikur-rahman-838a07206/)
+
+
